@@ -89,13 +89,13 @@ val_dataset = DataSet(
 
 train_loader = torch.utils.data.DataLoader(
     train_dataset,
-    batch_size=8,
+    batch_size=16,
     shuffle=True,
     drop_last=True)
 
 val_loader = torch.utils.data.DataLoader(
     val_dataset,
-    batch_size=8,
+    batch_size=16,
     shuffle=False,
     drop_last=False)
 
