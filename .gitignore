@@ -59,12 +59,8 @@ Code/output/*.png
 # ===========================
 # 🖼️ Data & Media (Large Files)
 # ===========================
-*.tif
-*.tiff
-# Uncomment below to ignore PNG data (if too large)
-# Code/input/PNG/
-# Code/input/TIF/
-# data/
+# Using Git LFS for PNG/TIF files
+# Run: git lfs install && git lfs track "*.png" "*.tif"
 
 # ===========================
 # 💻 IDE & Editors
