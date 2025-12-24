@@ -1,0 +1,127 @@
+# ===========================
+# 🐍 Python
+# ===========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ===========================
+# 🧪 Virtual Environments
+# ===========================
+venv/
+ENV/
+env/
+.venv/
+.conda/
+
+# ===========================
+# 🤖 Deep Learning / PyTorch
+# ===========================
+*.pth
+*.pt
+*.onnx
+*.pkl
+*.h5
+*.hdf5
+checkpoints/
+runs/
+logs/
+*.log
+
+# Model outputs (keep structure, ignore files)
+Code/output/models/*.pth
+Code/output/models/logs/*.csv
+Code/output/*.png
+
+# ===========================
+# 📊 Jupyter Notebooks
+# ===========================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ===========================
+# 🖼️ Data & Media (Large Files)
+# ===========================
+*.tif
+*.tiff
+# Uncomment below to ignore PNG data (if too large)
+# Code/input/PNG/
+# Code/input/TIF/
+# data/
+
+# ===========================
+# 💻 IDE & Editors
+# ===========================
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# ===========================
+# 🍎 macOS
+# ===========================
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# ===========================
+# 🪟 Windows
+# ===========================
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ===========================
+# 🐧 Linux
+# ===========================
+*~
+
+# ===========================
+# 🔐 Secrets & Config
+# ===========================
+.env
+.env.local
+*.pem
+*.key
+secrets.yaml
+config.local.yaml
+
+# ===========================
+# 📦 Misc
+# ===========================
+*.bak
+*.tmp
+*.temp
+.cache/
+*.cache
+node_modules/
+
+# ===========================
+# 🎮 Gradio
+# ===========================
+flagged/
+gradio_cached_examples/
